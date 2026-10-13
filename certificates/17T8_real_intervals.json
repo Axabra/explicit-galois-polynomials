@@ -1,0 +1,110 @@
+{
+  "certificate": "17 disjoint open intervals each with strict opposite endpoint signs",
+  "polynomial_degree": 17,
+  "denominator": 10,
+  "intervals": [
+    {
+      "left": "-419/10",
+      "right": "-418/10",
+      "sign_left": -1,
+      "sign_right": 1
+    },
+    {
+      "left": "-278/10",
+      "right": "-277/10",
+      "sign_left": 1,
+      "sign_right": -1
+    },
+    {
+      "left": "-210/10",
+      "right": "-209/10",
+      "sign_left": -1,
+      "sign_right": 1
+    },
+    {
+      "left": "-172/10",
+      "right": "-171/10",
+      "sign_left": 1,
+      "sign_right": -1
+    },
+    {
+      "left": "-113/10",
+      "right": "-112/10",
+      "sign_left": -1,
+      "sign_right": 1
+    },
+    {
+      "left": "-96/10",
+      "right": "-95/10",
+      "sign_left": 1,
+      "sign_right": -1
+    },
+    {
+      "left": "-79/10",
+      "right": "-78/10",
+      "sign_left": -1,
+      "sign_right": 1
+    },
+    {
+      "left": "-72/10",
+      "right": "-71/10",
+      "sign_left": 1,
+      "sign_right": -1
+    },
+    {
+      "left": "-46/10",
+      "right": "-45/10",
+      "sign_left": -1,
+      "sign_right": 1
+    },
+    {
+      "left": "-28/10",
+      "right": "-27/10",
+      "sign_left": 1,
+      "sign_right": -1
+    },
+    {
+      "left": "-15/10",
+      "right": "-14/10",
+      "sign_left": -1,
+      "sign_right": 1
+    },
+    {
+      "left": "-11/10",
+      "right": "-10/10",
+      "sign_left": 1,
+      "sign_right": -1
+    },
+    {
+      "left": "-8/10",
+      "right": "-7/10",
+      "sign_left": -1,
+      "sign_right": 1
+    },
+    {
+      "left": "236/10",
+      "right": "237/10",
+      "sign_left": 1,
+      "sign_right": -1
+    },
+    {
+      "left": "370/10",
+      "right": "371/10",
+      "sign_left": -1,
+      "sign_right": 1
+    },
+    {
+      "left": "449/10",
+      "right": "450/10",
+      "sign_left": 1,
+      "sign_right": -1
+    },
+    {
+      "left": "545/10",
+      "right": "546/10",
+      "sign_left": -1,
+      "sign_right": 1
+    }
+  ],
+  "conclusion": "exactly 17 distinct real roots"
+}

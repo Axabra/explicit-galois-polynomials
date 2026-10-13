@@ -1,0 +1,23 @@
+Magma Calculator: https://magma.maths.usyd.edu.au/calc/
+Version: Magma V2.29-10
+Input: The monic polynomial of h45_17t8_totally_real_group_proof.m, with
+Degree(f), GaloisGroup(f), TransitiveGroupIdentification(G), GaloisProof(f,data).
+The named script also contains assertions and reproduces these calls.
+Observed result from the online calculator, 2026-10-03:
+17
+Time: 0.550
+16320
+8 17
+true
+Time: 14.950
+Seed: 2317434383
+Total time: 15.519 seconds
+Total memory usage: 192.34MB
+Interpretation: TransitiveGroupIdentification returns (8,17), i.e. 17T8, and GaloisProof(f,data) returned true.
+
+Second online run: the complete contents of h45_17t8_totally_real_group_proof.m,
+including the degree, irreducibility, group order, transitive ID, and
+GaloisProof assertions, completed with output:
+degree=17; order=16320; transitive_group=17T8; GaloisProof=true
+Magma V2.29-10; seed 1089203939; total time 15.539 seconds;
+total memory usage 192.34MB.

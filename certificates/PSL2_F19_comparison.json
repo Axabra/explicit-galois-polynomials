@@ -1,0 +1,367 @@
+{
+  "status": "PASS_EXACT_REAL_IMAGINARY_COMPARISON",
+  "same_group": "PSL2(F19)",
+  "group_order": 3420,
+  "degree": 20,
+  "Shih_signature": [
+    0,
+    10
+  ],
+  "real_signature": [
+    20,
+    0
+  ],
+  "both_discriminants_are_squares": true,
+  "same_number_field": false,
+  "same_splitting_field": false,
+  "nonisomorphism_reason": "Different signatures; also different good-prime factor degrees",
+  "real_roots_disjoint_rational_sign_change_intervals": [
+    [
+      "-561/512",
+      "-1113/1024"
+    ],
+    [
+      "-69/64",
+      "-267/256"
+    ],
+    [
+      "-129/128",
+      "-249/256"
+    ],
+    [
+      "-15/16",
+      "-231/256"
+    ],
+    [
+      "-213/256",
+      "-417/512"
+    ],
+    [
+      "-93/128",
+      "-177/256"
+    ],
+    [
+      "-75/128",
+      "-141/256"
+    ],
+    [
+      "-105/256",
+      "-201/512"
+    ],
+    [
+      "-3/8",
+      "-15/64"
+    ],
+    [
+      "-3/32",
+      "-39/512"
+    ],
+    [
+      "-15/256",
+      "-3/128"
+    ],
+    [
+      "3/16",
+      "393/2048"
+    ],
+    [
+      "201/1024",
+      "105/512"
+    ],
+    [
+      "399/1024",
+      "807/2048"
+    ],
+    [
+      "51/128",
+      "111/256"
+    ],
+    [
+      "1095/2048",
+      "2199/4096"
+    ],
+    [
+      "69/128",
+      "147/256"
+    ],
+    [
+      "321/512",
+      "651/1024"
+    ],
+    [
+      "165/256",
+      "669/1024"
+    ],
+    [
+      "339/512",
+      "87/128"
+    ]
+  ],
+  "good_prime_comparisons": [
+    {
+      "prime": 7,
+      "Shih": [
+        1,
+        1,
+        9,
+        9
+      ],
+      "real": [
+        1,
+        1,
+        9,
+        9
+      ]
+    },
+    {
+      "prime": 11,
+      "Shih": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "real": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "prime": 23,
+      "Shih": [
+        1,
+        1,
+        9,
+        9
+      ],
+      "real": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "prime": 43,
+      "Shih": [
+        10,
+        10
+      ],
+      "real": [
+        1,
+        1,
+        9,
+        9
+      ]
+    },
+    {
+      "prime": 59,
+      "Shih": [
+        1,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "real": [
+        1,
+        19
+      ]
+    },
+    {
+      "prime": 127,
+      "Shih": [
+        1,
+        19
+      ],
+      "real": [
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "Shih_regular_real_cell_count": 42,
+  "Shih_cell_census": [
+    {
+      "sample_v": "-4199999/100000",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-419999/10000",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-209999/5000",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-41999/1000",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-20999/500",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-4199/100",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-2099/50",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-2097/50",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-419/10",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-209/5",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-208/5",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-41",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-203/5",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-40",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-39",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-38",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-37",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-36",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-35",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-33",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-32",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-30",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-26",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-25",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-24",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-16",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "-6",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "2",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "4",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "15",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "26",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "31",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "37",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "40",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "47",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "51",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "55",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "59",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "60",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "61",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "63",
+      "real_roots": 0
+    },
+    {
+      "sample_v": "65",
+      "real_roots": 0
+    }
+  ],
+  "Shih_all_regular_real_parameters_have_no_real_roots": true,
+  "Shih_exceptional_discriminant_zero_fibers": "Not separable degree-20 polynomial candidates",
+  "Shih_source_sha256": "ed9306dd2ad506ed32e73907efda8a9f87998e69d9738c40815a0f8009f24a3b",
+  "real_source_sha256": "def9ebcdffb63a0c1471b347c12c4ad249f1c9a222d650580a570940fc5cd60d",
+  "SL2_finite_obstructions_for_new_real_fiber_checked": false,
+  "PSL31_totally_real_constructed": false
+}

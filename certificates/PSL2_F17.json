@@ -1,0 +1,106 @@
+{
+  "schema": "d10-level17-exact-realization-v1",
+  "polynomial": "x^18 - 7*x^17 + 34*x^16 + 2652*x^15 - 15453*x^14 - 637653*x^13 + 2527764*x^12 + 141495930*x^11 + 855104131*x^10 - 7190694561*x^9 - 121820754206*x^8 - 381636593528*x^7 + 4848158386973*x^6 + 64090567791789*x^5 + 374138457690952*x^4 + 1297759561991842*x^3 + 2747357766253756*x^2 + 3289926104691664*x + 1711510429477536",
+  "monic": true,
+  "integral": true,
+  "degree": 18,
+  "irreducible": true,
+  "real_signature": [
+    2,
+    8
+  ],
+  "coefficients_ascending": [
+    1711510429477536,
+    3289926104691664,
+    2747357766253756,
+    1297759561991842,
+    374138457690952,
+    64090567791789,
+    4848158386973,
+    -381636593528,
+    -121820754206,
+    -7190694561,
+    855104131,
+    141495930,
+    2527764,
+    -637653,
+    -15453,
+    2652,
+    34,
+    -7,
+    1
+  ],
+  "field_discriminant": "12604836608102952501578411785174881733673725141712896",
+  "field_discriminant_factorization": [
+    [
+      2,
+      24
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      12
+    ]
+  ],
+  "distinct_from_prior_lmfdb_field": true,
+  "prior_field_discriminant": "1872288054175273291485319928304806169992978395889664",
+  "prior_field_discriminant_factorization": [
+    [
+      2,
+      16
+    ],
+    [
+      3,
+      20
+    ],
+    [
+      17,
+      30
+    ]
+  ],
+  "galois_group": {
+    "transitive_label": "18T377",
+    "name": "PSL(2,17)",
+    "order": 2448,
+    "method": "Magma GaloisGroup, independent of Hecke reconstruction"
+  },
+  "fibre": {
+    "u": 4,
+    "t": 19,
+    "integral_generator_before_reduction": "5491*z"
+  },
+  "family_sign_squareclass": "-34*(t-2)*(t-27)",
+  "sign_pullback": {
+    "t": "(2*u^2+918)/(u^2+34)",
+    "v": "850*u/(u^2+34)"
+  },
+  "all_separable_real_fibres_signature": [
+    2,
+    8
+  ],
+  "source_genus": 3,
+  "hurwitz_component": {
+    "absolute_reduced_degree": 189,
+    "absolute_reduced_genus": 5,
+    "neutral_candidate_blocks": 3
+  },
+  "totally_real_target_obtained": false,
+  "required_next_step": "Construct a different rational point on the Hurwitz component, with a neutral real cell.",
+  "files_sha256": {
+    "reconstruct_d10.py": "41b55268bc0db1c8258a6513552c0ea8edd6b8c8672d5f63e75d2b1d8bdbd8e5",
+    "d10_level17_psi.json": "67409d535812f3f2fabb3f2976495219651122249603ff9445b6e3e298a95c89",
+    "d10_psl17_pullback.json": "cb5de5516ebcb93575d4fcfb1853ef300b2a1360936cfac8579e75260332e213",
+    "d10_level17_discriminant_certificate.gp": "eb7b4fe0faeb81888e86b250c9f49c12a1bf0901ad7eea927420dc35e776bfba",
+    "d10_real_chamber_certificate.gp": "f26ba8fb8457d7422e5d9e426809e58d7519480bc1da598f9a8f958ec41f90ed",
+    "d10_u4_reduced.gp": "a6844a451f703e29eb952ff49a0341791a10064cef438e06cb8c09eeff50c76a",
+    "certify_u4_reduced.m": "c4bf3038b87170230fb90de05f7c4b995e444deb947dd2c96e5097544fca5809",
+    "certify_u4_reduced.response.xml": "578312460d490b41223224f276952e4724f57aa3ec1b5d9680174bc65b03ad8c",
+    "certify_u4_reduced.output.log": "a714dd1420a13df2528071bd7471a8280428a8731733e81848c18cfcca89a9ec",
+    "d10_hurwitz_component.json": "4ea21f7a92253402c9b8a773a76ded4b6a7c5efd8de6999f97e0b176ce91a9c3",
+    "compare_prior_field.gp": "9f51566c58c3e17ff0c1742470673bd38958da95b5d57b47572f83dba77306b2",
+    "compare_prior_field.log": "eaa26745f7e04f8c2f15892b5c40eae04b933326d1e8de17315d5c0370c009a4"
+  }
+}

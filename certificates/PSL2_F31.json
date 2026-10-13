@@ -1,0 +1,133 @@
+{
+  "status": "PASS_PSL2_F31_CERTIFICATE_WITH_MODULAR_UPPER_BOUND",
+  "polynomial": "polynomials/PSL2_F31_degree32.txt",
+  "degree": 32,
+  "monic_integer": true,
+  "irreducibility_proof": "Incompatible proper factor degrees modulo 19 and 61",
+  "finite_field_witnesses": [
+    {
+      "prime": 19,
+      "degrees": [
+        16,
+        16
+      ],
+      "factors_ascending": [
+        [
+          16,
+          17,
+          12,
+          0,
+          2,
+          9,
+          15,
+          18,
+          1,
+          12,
+          15,
+          5,
+          12,
+          3,
+          4,
+          6,
+          1
+        ],
+        [
+          7,
+          18,
+          14,
+          12,
+          7,
+          18,
+          1,
+          2,
+          10,
+          15,
+          4,
+          17,
+          7,
+          3,
+          14,
+          17,
+          1
+        ]
+      ]
+    },
+    {
+      "prime": 61,
+      "degrees": [
+        1,
+        31
+      ],
+      "factors_ascending": [
+        [
+          7,
+          1
+        ],
+        [
+          18,
+          40,
+          44,
+          23,
+          58,
+          29,
+          22,
+          11,
+          24,
+          17,
+          44,
+          21,
+          6,
+          39,
+          36,
+          45,
+          59,
+          6,
+          20,
+          50,
+          60,
+          59,
+          58,
+          58,
+          18,
+          23,
+          16,
+          32,
+          17,
+          37,
+          39,
+          1
+        ]
+      ]
+    }
+  ],
+  "discriminant": "6526175701868954669927557207080966311420918076306718075107196058881631695253035625699568213232086947920829302998089818263356033548601611144867190754390941214841404622298969689799297833372665090244058763526607889450952146979229515607359507665194698092978340801048306338609953429233466155595797375342216864847008278048665641971545107034107566754437880182881951945777653678758979105778397809835292931730321502087674190379181325209654584692568082740315565932260024914357623500060318588123373206891801392687390714372374190944895839654641010071450221207779191112934058277829767813436793535337400234602297482791540522287669586911075532928595362697685497859235724155110678826085739516193562244499604586338754128265447314222702349974369774855415622932519098897394959384576",
+  "discriminant_square_root": "2554638076493215245900902310103178540898738789741041669707361129281776802002068634472467664946784245922341330854839166767300110197235314173784142351158372402198646312079797853102537200449927930713907917038747826342765241626906420784478092583234869910290706564901712380784255408053326353877896601094266923285795020745878814711684513026007404058036713127034496501527641760881994366976",
+  "discriminant_is_square": true,
+  "number_real_roots": 0,
+  "signature": [
+    0,
+    16
+  ],
+  "field_isomorphism_with_modular_specialization_verified": true,
+  "PSL_order": 14880,
+  "PGL_order": 29760,
+  "PGL_automorphism_group_order": 29760,
+  "PGL_self_normalizing_in_S32": true,
+  "maximal_proper_subgroup_orders_PSL31": [
+    24,
+    24,
+    30,
+    32,
+    60,
+    60,
+    465
+  ],
+  "no_proper_subgroup_contains_orders_16_and_31": true,
+  "group_upper_bound_source": "Exact modular identity and natural PGL Hecke action",
+  "modular_identity_certificate_required": "PSL2_F31_modular_identity.json",
+  "modular_identity_certificate_loaded_and_passed": true,
+  "SL2_embedding_of_this_splitting_field_over_Q_possible": false,
+  "reason_SL2_impossible": "Nontrivial complex conjugation; every lift of a PSL involution to SL has order 4",
+  "not_the_245_passport": true,
+  "not_the_previous_formal_genus3_deformation": true
+}

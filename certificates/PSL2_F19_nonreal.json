@@ -1,0 +1,109 @@
+{
+  "status": "PASS_PSL2_F19_CERTIFICATE_WITH_MODULAR_UPPER_BOUND",
+  "degree": 20,
+  "monic_integer": true,
+  "group": "PSL2(F19)",
+  "group_order": 3420,
+  "group_upper_bound": "Exact modular equation and natural PGL Hecke action, then square discriminant",
+  "finite_field_witnesses": [
+    {
+      "prime": 127,
+      "degrees": [
+        1,
+        19
+      ],
+      "factors_ascending": [
+        [
+          66,
+          1
+        ],
+        [
+          51,
+          101,
+          84,
+          63,
+          85,
+          46,
+          67,
+          81,
+          126,
+          103,
+          8,
+          60,
+          15,
+          27,
+          82,
+          116,
+          44,
+          109,
+          58,
+          1
+        ]
+      ]
+    },
+    {
+      "prime": 43,
+      "degrees": [
+        10,
+        10
+      ],
+      "factors_ascending": [
+        [
+          18,
+          19,
+          13,
+          9,
+          16,
+          16,
+          33,
+          31,
+          12,
+          0,
+          1
+        ],
+        [
+          40,
+          41,
+          9,
+          24,
+          38,
+          29,
+          26,
+          41,
+          31,
+          40,
+          1
+        ]
+      ]
+    }
+  ],
+  "irreducibility_proof": "Incompatible proper factor degrees 10 versus 1 or 19",
+  "maximal_proper_subgroup_orders": [
+    18,
+    20,
+    60,
+    60,
+    171
+  ],
+  "no_proper_subgroup_contains_orders_10_and_19": true,
+  "PGL_order": 6840,
+  "PGL_automorphism_order": 6840,
+  "PGL_self_normalizing_in_S20": true,
+  "discriminant": "3336551051223518683039206396264816880000868700558684820913979446472080536803770140923517941334738720093756008677112827189110549904155542288717542464278293897029716033152047592508495300281516633832026857747078847133339641013671794667061476502567529678344726562500",
+  "discriminant_square_root": "57762886451626693990606145193128093189455247276520397668644510473180563192221434212636825989526337592385711695864796638488769531250",
+  "discriminant_is_square": true,
+  "number_real_roots": 0,
+  "signature": [
+    0,
+    10
+  ],
+  "exact_isomorphism_to_modular_specialization_rechecked": true,
+  "input_sha256": {
+    "MODULAR_3A_LEVEL19.json": "a215a738284addec45d7691962d75497557794ce7ae863561946f64705ae9d6b",
+    "MODULAR_IDENTITY_CERTIFICATE.json": "66c050b5210291fa85f0fc2eb2c8c1579ed8511f16b9d8d0037e44c7c467163f",
+    "SHIH_19_t1.json": "fcfdc5a86975dcd838453badea4121ced9d571b17a546de34e550ef0edd017ef",
+    "PSL19_REDUCED.json": "ed9306dd2ad506ed32e73907efda8a9f87998e69d9738c40815a0f8009f24a3b"
+  },
+  "no_Magma": true,
+  "seconds": 4.182
+}

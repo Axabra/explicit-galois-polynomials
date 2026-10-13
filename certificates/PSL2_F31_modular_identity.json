@@ -1,0 +1,15 @@
+{
+  "status": "PASS_EXACT_MODULAR_IDENTITY",
+  "arithmetic": "QQ, no floating point",
+  "independent_eta_method": "Euler pentagonal theorem",
+  "curve": "X0(93)/<w3>",
+  "cusp_count": 2,
+  "pole_order_bound_each_cusp": 992,
+  "total_pole_degree_bound": 1984,
+  "zero_verified_to_order_at_least": 2085,
+  "modular_identity_follows_from_pole_divisor_bound": true,
+  "symmetry_used_to_bound_second_cusp": true,
+  "specialization_matches_independent_constructor": true,
+  "changed_constant_rejected": true,
+  "seconds": 10.851
+}
