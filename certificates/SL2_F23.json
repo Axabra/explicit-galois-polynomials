@@ -1,0 +1,38 @@
+{
+  "polynomial": "Pstar_degree48.txt",
+  "polynomial_sha256": "8bcbe38eb8b1b27670796c91661ee5b1d9670612f8524d385a1d3f50cd1de397",
+  "coefficient_list_ascending": "Pstar_ascending.csv",
+  "coefficient_list_sha256": "04d3520c5e121689e86632902ee861056621a073f635351d3007d112791cf2e4",
+  "construction_by": "Axel Abdel Rahamane Meghezzi",
+  "degree": 48,
+  "galois_group": "SL(2,23)",
+  "group_order": 12144,
+  "signature": [
+    48,
+    0
+  ],
+  "max_coefficient_decimal_digits": 1712,
+  "contribution": "Explicit totally real degree-48 model constructed through a central lift of a previously known degree-24 PSL(2,23) field.",
+  "construction_record_date": "2026-09-25",
+  "construction_record_status": "PASS",
+  "exact_arithmetic_checks_replayed_on": "2026-10-22",
+  "irreducibility_witnesses": {
+    "3": [
+      24,
+      24
+    ],
+    "17": [
+      2,
+      46
+    ]
+  },
+  "even_polynomial": true,
+  "norm_identity": "PASS",
+  "real_root_count": 48,
+  "source_polynomial": "f24_source.txt",
+  "source_polynomial_sha256": "7e41b3d74374d55443a2fd63c25749815b54bba75a45e07edb0bdc07366c604e",
+  "group_identification_basis": "Known PSL(2,23) source-group identification and the recorded non-split central-lift construction.",
+  "source_group_independently_recomputed": false,
+  "public_arithmetic_check": "gp -q verify.gp",
+  "public_check_scope": "Degrees, squarefree modular factor patterns, P(x)=Q(x^2), exact norm identity and real-root counts. The central-lift group argument is separate."
+}
