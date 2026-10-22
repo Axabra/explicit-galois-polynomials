@@ -21,7 +21,7 @@ The two degree-20 polynomials make a useful comparison: their splitting fields h
 ## Provenance and scope
 
 - The degree-17 `17T8` polynomial is a totally real model. The records include 17 disjoint rational intervals with sign changes and a Magma `GaloisProof` result.
-- The degree-18 `PSL₂(F₁₇)` model has two real roots. It comes from an exact level-17 Hecke-cover reconstruction in discriminant 10, followed by a specialization and a Magma group check. It is a different field from the specific earlier LMFDB model compared in the certificate; no broader literature-first claim is made.
+- The degree-18 `PSL₂(F₁₇)` model has two real roots and includes a documented Magma group check.
 - The totally real `PSL₂(F₁₉)` polynomial is my specialization at `Y = −7546608813573` of [Emir Eray Karabiyik's published degree-20 cover](https://arxiv.org/html/2609.03946v1#S4.SS3). His paper uses `Y = −7546608500347`. The parameter and polynomial here are different; whether the two resulting fields are isomorphic was not established.
 - The nonreal `PSL₂(F₁₉)` and `PSL₂(F₃₁)` polynomials were calculated as explicit specializations using [Shih's modular construction](https://www.numdam.org/item/CM_1978__36_2_113_0.pdf). Their coefficients were computed for these examples, not copied from a table. Their group arguments use the modular upper bound, a square discriminant, and finite-field witnesses; the certificate JSON files record the checks.
 
