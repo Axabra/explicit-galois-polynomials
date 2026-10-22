@@ -1,0 +1,40 @@
+{
+  "polynomial": "polynomials/PGL2_F23_real_degree24.txt",
+  "coefficient_list_ascending": "polynomials/PGL2_F23_real_degree24_ascending.csv",
+  "polynomial_sha256": "65121a693c58b6483f53a78db4603ea5873639d6e779cf567b97f1805b7d127d",
+  "coefficient_list_sha256": "7ad38d8f737aa7de479517aa9967167aa317aca8d4aee3f713b0fc9d2b20274f",
+  "constructed_by": "Axel Abdel Rahamane Meghezzi",
+  "degree": 24,
+  "monic": true,
+  "irreducible_over_Q": true,
+  "galois_group": "PGL(2,23)",
+  "group_order": 12144,
+  "signature": [
+    24,
+    0
+  ],
+  "real_root_count": 24,
+  "max_coefficient_decimal_digits": 19,
+  "group_status": "CERTIFIED",
+  "independent_group_verification": {
+    "verified_by": "Jürgen Klüners",
+    "method": "Magma group proof step",
+    "reported_proof_result": true,
+    "confirmation_source": "Personal correspondence with the author",
+    "confirmation_recorded_on": "2026-10-22",
+    "reported_runtime": "Slightly more than 4 minutes",
+    "reported_memory": "3 GB"
+  },
+  "arithmetic_checks": {
+    "replayed_on": "2026-10-22",
+    "software": "SymPy",
+    "exact_real_root_count": 24,
+    "irreducibility_witness": {
+      "prime": 19,
+      "squarefree_factor_degrees": [
+        24
+      ]
+    },
+    "ascending_coefficient_roundtrip": "PASS"
+  }
+}

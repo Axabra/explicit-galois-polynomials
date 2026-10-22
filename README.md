@@ -13,10 +13,17 @@ The *degree* counts all roots over `C`; the *real roots* column counts those on 
 | [`f₁₉,real`](polynomials/PSL2_F19_real_degree20.txt) | 20 | `PSL₂(F₁₉)` | 3,420 | 20 | `(20,0)` | [Specialization record](certificates/PSL2_F19_real.json), [comparison](certificates/PSL2_F19_comparison.json) |
 | [`f₁₉,nonreal`](polynomials/PSL2_F19_nonreal_degree20.txt) | 20 | `PSL₂(F₁₉)` | 3,420 | 0 | `(0,10)` | [Modular and finite-field record](certificates/PSL2_F19_nonreal.json) |
 | [`f₂₃`, reconstructed](polynomials/PSL2_F23_reconstructed_degree24.txt) | 24 | `PSL₂(F₂₃)` = `24T7817` | 6,072 | 24 | `(24,0)` | [Reconstruction and exact checks](certificates/PSL2_F23_reconstructed.json) |
+| [`f₂₃,PGL`](polynomials/PGL2_F23_real_degree24.txt) | 24 | `PGL₂(F₂₃)` | 12,144 | 24 | `(24,0)` | [Independent Magma certification by Jürgen Klüners](certificates/PGL2_F23_real.json) |
 | [`P*`](Pstar_degree48.txt) | 48 | `SL₂(F₂₃)` | 12,144 | 48 | `(48,0)` | [Construction and exact checks](certificates/SL2_F23.json) |
 | [`f₃₁`](polynomials/PSL2_F31_degree32.txt) | 32 | `PSL₂(F₃₁)` | 14,880 | 0 | `(0,16)` | [Group record](certificates/PSL2_F31.json), [modular identity](certificates/PSL2_F31_modular_identity.json) |
 
-All seven displayed polynomials are irreducible over `Q`. The two degree-20 models have the same abstract Galois group, with different real-root counts and distinct number fields.
+All eight displayed polynomials are irreducible over `Q`. The two degree-20 models have the same abstract Galois group, with different real-root counts and distinct number fields.
+
+## Certified totally real PGL₂(F₂₃)
+
+The [degree-24 polynomial](polynomials/PGL2_F23_real_degree24.txt) constructed in this work is monic, irreducible over `Q`, and has **24 real roots**. Its splitting-field group is **PGL₂(F₂₃)**, of order **12,144**.
+
+**Independent certification:** Jürgen Klüners confirmed that the polynomial is correct and that the Magma proof step returned `true`. He reported a runtime of slightly more than **4 minutes** and memory usage of **3 GB**. The [verification record](certificates/PGL2_F23_real.json) documents this confirmation from personal correspondence, recorded on 22 October 2026.
 
 ## Totally real PSL₂(F₂₃) and SL₂(F₂₃)
 
@@ -28,13 +35,15 @@ The degree-24 reconstruction and the degree-48 lift are separate contributions. 
 
 ## Polynomial data
 
-Every polynomial file contains exact integer coefficients. Ascending coefficient lists are provided for [`17T8`](polynomials/17T8_degree17_ascending.csv), [`PSL₂(F₁₇)`](polynomials/PSL2_F17_degree18_ascending.csv), the [reconstructed `PSL₂(F₂₃)` model](polynomials/PSL2_F23_reconstructed_degree24_ascending.csv), and [`P*`](Pstar_ascending.csv).
+Every polynomial file contains exact integer coefficients. Ascending coefficient lists are provided for [`17T8`](polynomials/17T8_degree17_ascending.csv), [`PSL₂(F₁₇)`](polynomials/PSL2_F17_degree18_ascending.csv), the [reconstructed `PSL₂(F₂₃)` model](polynomials/PSL2_F23_reconstructed_degree24_ascending.csv), the [totally real `PGL₂(F₂₃)` model](polynomials/PGL2_F23_real_degree24_ascending.csv), and [`P*`](Pstar_ascending.csv).
 
 The totally real degree-20 polynomial is my specialization of a published family, in primitive nonmonic form. The nonreal degree-20 and degree-32 models were computed using a published modular construction. Their technical records document the checks and mathematical dependencies.
 
 ## Verification
 
 Run `gp -q verify.gp` from the repository root with PARI/GP to check the degree-24 and degree-48 polynomial data: modular irreducibility witnesses, the exact norm identity, and real-root counts.
+
+For the totally real `PGL₂(F₂₃)` polynomial, the [separate verification record](certificates/PGL2_F23_real.json) gives the independently confirmed Magma group proof and the exact arithmetic checks.
 
 The group identifications also use the recorded group arguments. For `PSL₂(F₂₃)` and `SL₂(F₂₃)`, these rely on the known source-field group and the central-lift construction. The JSON files distinguish those arguments from the arithmetic checks performed by the script.
 
