@@ -1,0 +1,40 @@
+{
+  "polynomial": "polynomials/PSL2_F23_reconstructed_degree24.txt",
+  "coefficient_list_ascending": "polynomials/PSL2_F23_reconstructed_degree24_ascending.csv",
+  "polynomial_sha256": "b17957defb87c30ef22969c3000a8e57399ffa18ec5431f6371d56d118e7d7a7",
+  "coefficient_list_sha256": "160506b09e3a7a4219f632eecad7e52a4802f4e9959c948c3de5d39c58ca9862",
+  "reconstruction_by": "Axel Abdel Rahamane Meghezzi",
+  "degree": 24,
+  "galois_group": "PSL(2,23)",
+  "transitive_group": "24T7817",
+  "group_order": 6072,
+  "signature": [
+    24,
+    0
+  ],
+  "max_coefficient_decimal_digits": 63,
+  "contribution": "Reconstructed polynomial model of a previously known totally real field.",
+  "exact_checks_replayed_on": "2026-10-22",
+  "irreducibility_witnesses": {
+    "3": [
+      12,
+      12
+    ],
+    "17": [
+      1,
+      23
+    ]
+  },
+  "real_root_count": 24,
+  "exact_isomorphism_to_source": {
+    "status": "PASS",
+    "new_generator_satisfies_reconstructed_polynomial": true,
+    "old_generator_recovered_from_new_generator": true,
+    "source_polynomial": "f24_source.txt",
+    "source_polynomial_sha256": "7e41b3d74374d55443a2fd63c25749815b54bba75a45e07edb0bdc07366c604e",
+    "replay_material": "Exact generator maps are retained by the author for technical discussion."
+  },
+  "group_identification_basis": "Transport of the known source-field group through the exact field isomorphism.",
+  "public_arithmetic_check": "gp -q verify.gp",
+  "public_check_scope": "Degree, squarefree modular factor patterns and real-root count; the generator maps and source-group identification are separate records."
+}
